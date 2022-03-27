@@ -1,0 +1,149 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-color: #1f1f1f;
+}
+
+.login-logo img{
+    width: 300px;
+    height: 300px;
+}
+
+.login-rigth {
+    background-color: #29292e;
+
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.login-rigth h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+    font-weight: 400;
+
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.login-right h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e1e1e6;
+
+    margin-top: 40px;
+}
+
+.login-loginInputEmail {
+    display: flex;
+    align-items: center;
+    color: gray;
+
+    background-color: #1a1a1d;
+    border-radius: 5px;
+
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.login-loginInputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.login-loginInputEmail input {
+    background: transparent;
+    color: #e1e1e5;
+
+    width: 100%;
+    margin-right: 10px;
+
+    outline-width: 0;
+    border: none;
+    font-size: 17px;
+}
+
+.login-loginInputPassword {
+    display: flex;
+    align-items: center;
+
+    color: gray;
+    background-color: #1a1a1d;
+
+    border-radius: 5px;
+    
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.login-loginInputPassword input {
+    background: transparent;
+    color: #e1e1e5;
+
+    width: 100%;
+    margin-right: 10px;
+
+    outline-width: 0;
+    border: none;
+
+    font-size: 17px;
+}
+
+.login-loginInputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.login-rigth button {
+    width: 100%;
+    height: 50px;
+    padding: 3px;
+
+    font-size: 18px;
+    font-size: 17px;
+    font-weight: 700;
+
+    background-color: #72A6C6;
+    outline-width: 0;
+    color: #ffffff;
+
+    margin-left: 9px;
+    margin-top: 15px;
+    height: 50px;
+
+    border-radius: 8px;
+    border-color: #1a1a1d;
+    border-width: 1px;
+}
+
+.login-rigth button:hover {
+    background-color: #14CFFF;
+    color: #121214;
+    cursor: pointer;
+}
